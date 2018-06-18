@@ -120,7 +120,7 @@ export default class TransformableImage extends PureComponent {
                     }
                 },
                 () => {
-                    this._mounted && this.setState({ error: true });
+//                     this._mounted && this.setState({ error: true });
                 }
             );
         } else {
